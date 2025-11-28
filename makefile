@@ -1,36 +1,42 @@
-# MPLAB IDE generated this makefile for use with GNU make.
-# Project: p18f4550example.mcp
-# Date: Fri Nov 28 22:49:26 2025
-
+SHELL = cmd
 AS = MPASMWIN.exe
 CC = mcc18.exe
 LD = mplink.exe
 AR = mplib.exe
 RM = del
+PROJECT=p18f4550example
+PIC_TYPE=18F4550
+MAKEFILENAME=-DMAKEFILE_NAME=\""Makefile\""
+DEFAULTDEFINE=$(MAKEFILENAME)
+INCLUDEPATH=/i".\pic_pid\inc" -I".\inc"
+CFLAGS=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+LIBS=
 
-all : ./output/p18f4550example.cof
+TARGET := ./output/$(PROJECT).hex
+TARGET_COFF := ./output/$(PROJECT).cof
+TARGET_MAP := ./output/$(PROJECT).map
 
-./output/p18f4550example.cof : output/main.o output/pid.o output/scaler.o output/signalprocessor.o output/hyst.o output/controller.o
-	$(LD) /l"C:\MCC18\lib" /k".\lnk" "lnk\18f4550.lkr" "output\main.o" "output\pid.o" "output\scaler.o" "output\signalprocessor.o" "output\hyst.o" "output\controller.o" /z__MPLAB_BUILD=1 /z__MPLAB_DEBUG=1 /m".\output\p18f4550example.map" /w /o".\output\p18f4550example.cof"
+all: $(TARGET)
 
-output/main.o : src/main.c ../../MCC18/h/stdio.h pic_pid/inc/scaler.h pic_pid/inc/signalprocessor.h pic_pid/inc/pid.h pic_pid/inc/controller.h pic_pid/inc/hyst.h src/main.c ../../MCC18/h/p18f4550.h inc/global.h inc/main.h ../../MCC18/h/stdarg.h ../../MCC18/h/stddef.h
-	$(CC) -p=18F4550 /i".\pic_pid\inc" -I".\inc" "src\main.c" -fo=".\output\main.o" -D__DEBUG -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+SRC_DIRS := .\src .\pic_pid\src
+SRCS := $(wildcard $(addsuffix /*.c, $(SRC_DIRS)))
+EXCLUDE := 
+SRCS := $(filter-out $(EXCLUDE), $(SRCS))
+OBJS := $(SRCS:.c=.o)
 
-output/pid.o : pic_pid/src/pid.c pic_pid/inc/signalprocessor.h pic_pid/inc/pid.h pic_pid/src/pid.c inc/global.h
-	$(CC) -p=18F4550 /i".\pic_pid\inc" -I".\inc" "pic_pid\src\pid.c" -fo=".\output\pid.o" -D__DEBUG -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+SRCS_WIN := $(subst /,\,$(SRCS))
+OBJS_WIN := $(subst /,\,$(OBJS))
+TARGET_WIN := $(subst /,\,$(TARGET))
+TARGET_COFF_WIN := $(subst /,\,$(TARGET_COFF))
+TARGET_MAP_WIN := $(subst /,\,$(TARGET_MAP))
 
-output/scaler.o : pic_pid/src/scaler.c pic_pid/inc/scaler.h pic_pid/src/scaler.c inc/global.h
-	$(CC) -p=18F4550 /i".\pic_pid\inc" -I".\inc" "pic_pid\src\scaler.c" -fo=".\output\scaler.o" -D__DEBUG -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+$(TARGET) : $(TARGET_COFF)
 
-output/signalprocessor.o : pic_pid/src/signalprocessor.c pic_pid/inc/signalprocessor.h pic_pid/src/signalprocessor.c inc/global.h
-	$(CC) -p=18F4550 /i".\pic_pid\inc" -I".\inc" "pic_pid\src\signalprocessor.c" -fo=".\output\signalprocessor.o" -D__DEBUG -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+$(TARGET_COFF) : $(OBJS_WIN)
+	$(LD) /l"C:\MCC18\lib" /k".\lnk" "lnk\$(PIC_TYPE).lkr" $^ /z__MPLAB_BUILD=1 /m$(TARGET_MAP_WIN) /w /o$(TARGET_COFF_WIN)
 
-output/hyst.o : pic_pid/src/hyst.c pic_pid/inc/hyst.h pic_pid/src/hyst.c inc/global.h
-	$(CC) -p=18F4550 /i".\pic_pid\inc" -I".\inc" "pic_pid\src\hyst.c" -fo=".\output\hyst.o" -D__DEBUG -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
-
-output/controller.o : pic_pid/src/controller.c ../../MCC18/h/stdio.h pic_pid/inc/scaler.h pic_pid/inc/signalprocessor.h pic_pid/inc/pid.h pic_pid/inc/controller.h pic_pid/src/controller.c ../../MCC18/h/stdarg.h ../../MCC18/h/stddef.h inc/global.h
-	$(CC) -p=18F4550 /i".\pic_pid\inc" -I".\inc" "pic_pid\src\controller.c" -fo=".\output\controller.o" -D__DEBUG -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+%.o: %.c
+	$(CC) -p=$(PIC_TYPE) $(INCLUDEPATH) $< -fo=$@ $(CFLAGS) $(DEFAULTDEFINE)
 
 clean : 
-	$(RM) "output\main.o" "output\pid.o" "output\scaler.o" "output\signalprocessor.o" "output\hyst.o" "output\controller.o" ".\output\p18f4550example.cof" ".\output\p18f4550example.hex" ".\output\p18f4550example.map"
-
+	$(RM) /Q $(OBJS_WIN) $(TARGET_WIN) $(TARGET_COFF_WIN) $(TARGET_MAP_WIN)

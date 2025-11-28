@@ -1,5 +1,5 @@
 MPLINK 4.1, Linker
-Linker Map File - Created Fri Nov 28 22:52:23 2025
+Linker Map File - Created Fri Nov 28 23:04:54 2025
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -475,11 +475,11 @@ setParameters_standardized   0x002840    program     extern c:\git\pic_pid_examp
                  __TEMPB2   0x000011       data     extern C:\MCC18\SRC\TRADIT~1\MATH\temparg.asm
                  __TEMPB3   0x000010       data     extern C:\MCC18\SRC\TRADIT~1\MATH\temparg.asm
                   __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\src\main.c
-                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\pid.c
-                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\scaler.c
-                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
                   __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\controller.c
                   __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\hyst.c
+                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\pid.c
+                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\scaler.c
                   __tmp_1   0x000028       data     static c:\git\pic_pid_example_project\src\main.c
                      alap   0x000100       data     extern c:\git\pic_pid_example_project\src\main.c
                      cold   0x00010c       data     extern c:\git\pic_pid_example_project\src\main.c
@@ -663,12 +663,12 @@ setParameters_standardized   0x002840    program     extern c:\git\pic_pid_examp
                  __TEMPB1   0x000012       data     extern C:\MCC18\SRC\TRADIT~1\MATH\temparg.asm
                    __TEMP   0x000013       data     extern C:\MCC18\SRC\TRADIT~1\MATH\temparg.asm
                  __TEMPB0   0x000013       data     extern C:\MCC18\SRC\TRADIT~1\MATH\temparg.asm
-                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\pid.c
-                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\src\main.c
-                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\scaler.c
-                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
                   __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\controller.c
+                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\src\main.c
                   __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\hyst.c
+                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\pid.c
+                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\scaler.c
                   __tmp_1   0x000028       data     static c:\git\pic_pid_example_project\src\main.c
         input_alap_scaler   0x000060       data     extern c:\git\pic_pid_example_project\pic_pid\src\controller.c
    input_ellenorzo_scaler   0x000074       data     extern c:\git\pic_pid_example_project\pic_pid\src\controller.c
