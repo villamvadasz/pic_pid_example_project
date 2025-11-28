@@ -1,0 +1,37 @@
+#gcc-14.2.0-no-debug
+SHELL = cmd
+AS = c:\gcc-14.2.0-no-debug\bin\gcc
+CC = c:\gcc-14.2.0-no-debug\bin\gcc
+LD = c:\gcc-14.2.0-no-debug\bin\gcc
+AR = c:\gcc-14.2.0-no-debug\bin\gcc
+RM = del
+PROJECT=p18f4550example
+PIC_TYPE=18F4550
+MAKEFILENAME=-DMAKEFILE_NAME=\""Makefile\""
+DEFAULTDEFINE=$(MAKEFILENAME)
+INCLUDEPATH=-I".\pic_pid\inc" -I".\inc" -I".\testing\inc"
+CFLAGS=
+LIBS=
+
+TARGET := ./output/$(PROJECT).exe
+
+all: $(TARGET)
+
+SRC_DIRS := .\src .\pic_pid\src .\testing\src
+SRCS := $(wildcard $(addsuffix /*.c, $(SRC_DIRS)))
+EXCLUDE := .\src/main.c
+SRCS := $(filter-out $(EXCLUDE), $(SRCS))
+OBJS := $(SRCS:.c=.o)
+
+SRCS_WIN := $(subst /,\,$(SRCS))
+OBJS_WIN := $(subst /,\,$(OBJS))
+TARGET_WIN := $(subst /,\,$(TARGET))
+
+$(TARGET) : $(OBJS_WIN)
+	$(LD) -o $(TARGET) $(OBJS_WIN)
+
+%.o: %.c
+	$(CC) $(INCLUDEPATH) $< $(CFLAGS) $(DEFAULTDEFINE) -c -o $@
+
+clean : 
+	$(RM) /Q $(OBJS_WIN) $(TARGET_WIN) $(TARGET_COFF_WIN) $(TARGET_MAP_WIN)
