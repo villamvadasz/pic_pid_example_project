@@ -1,5 +1,5 @@
 MPLINK 4.1, Linker
-Linker Map File - Created Fri Nov 28 22:46:57 2025
+Linker Map File - Created Fri Nov 28 22:52:23 2025
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -60,9 +60,9 @@ Linker Map File - Created Fri Nov 28 22:46:57 2025
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-                      DT0   0x000954    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                      DT1   0x000f98    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                      DT2   0x001060    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                      DT0   0x000954    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                      DT1   0x000f98    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                      DT2   0x001060    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
                  FLO0832S   0x001b40    program     extern C:\MCC18\SRC\TRADIT~1\MATH\cast08FP.asm
                  FLO0832U   0x001b3c    program     extern C:\MCC18\SRC\TRADIT~1\MATH\cast08FP.asm
                     FPA32   0x001b60    program     extern C:\MCC18\SRC\TRADIT~1\MATH\addFP.asm
@@ -70,24 +70,24 @@ Linker Map File - Created Fri Nov 28 22:46:57 2025
                     FPM32   0x001d32    program     extern C:\MCC18\SRC\TRADIT~1\MATH\mulFP.asm
                     FPS32   0x001b5e    program     extern C:\MCC18\SRC\TRADIT~1\MATH\addFP.asm
                   INT3216   0x001e0c    program     extern C:\MCC18\SRC\TRADIT~1\MATH\castFP16.asm
-                      IT0   0x000af8    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                      IT1   0x000f34    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                      IT2   0x000ffc    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-     InterruptHandlerHigh   0x0024b4    program     extern C:\git\pic_pid_example_project\src\main.c
-      InterruptVectorHigh   0x000008    program     extern C:\git\pic_pid_example_project\src\main.c
-                     PDT0   0x0014aa    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                     PDT1   0x001594    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                     PDT2   0x0016ae    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                     PIT0   0x001190    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                   PIT0D0   0x0017c8    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                     PIT1   0x001278    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                  PIT1DT1   0x00192a    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                     PIT2   0x001390    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                      PT0   0x00089a    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                      PT1   0x0010c4    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                      PT2   0x00112a    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                       T1   0x000040    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                       T2   0x000344    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                      IT0   0x000af8    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                      IT1   0x000f34    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                      IT2   0x000ffc    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+     InterruptHandlerHigh   0x0024b4    program     extern c:\git\pic_pid_example_project\src\main.c
+      InterruptVectorHigh   0x000008    program     extern c:\git\pic_pid_example_project\src\main.c
+                     PDT0   0x0014aa    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                     PDT1   0x001594    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                     PDT2   0x0016ae    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                     PIT0   0x001190    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                   PIT0D0   0x0017c8    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                     PIT1   0x001278    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                  PIT1DT1   0x00192a    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                     PIT2   0x001390    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                      PT0   0x00089a    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                      PT1   0x0010c4    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                      PT2   0x00112a    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                       T1   0x000040    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                       T2   0x000344    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
                   TAEQB32   0x001e6a    program     extern C:\MCC18\SRC\TRADIT~1\MATH\eqFP.asm
                   TAGTB32   0x001e78    program     extern C:\MCC18\SRC\TRADIT~1\MATH\gtFP.asm
                   TALTB32   0x001e8a    program     extern C:\MCC18\SRC\TRADIT~1\MATH\ltFP.asm
@@ -108,28 +108,28 @@ Linker Map File - Created Fri Nov 28 22:46:57 2025
        ___return_lbl00001   0x002f22    program     static                          
        ___return_lbl00002   0x002f06    program     static                          
        ___return_lbl00003   0x00000c    program     static                          
-               __config_0   0x300000    program     static C:\git\pic_pid_example_project\src\main.c
-               __config_1   0x300001    program     static C:\git\pic_pid_example_project\src\main.c
-              __config_10   0x30000c    program     static C:\git\pic_pid_example_project\src\main.c
-              __config_11   0x30000d    program     static C:\git\pic_pid_example_project\src\main.c
-               __config_2   0x300002    program     static C:\git\pic_pid_example_project\src\main.c
-               __config_3   0x300003    program     static C:\git\pic_pid_example_project\src\main.c
-               __config_4   0x300005    program     static C:\git\pic_pid_example_project\src\main.c
-               __config_5   0x300006    program     static C:\git\pic_pid_example_project\src\main.c
-               __config_6   0x300008    program     static C:\git\pic_pid_example_project\src\main.c
-               __config_7   0x300009    program     static C:\git\pic_pid_example_project\src\main.c
-               __config_8   0x30000a    program     static C:\git\pic_pid_example_project\src\main.c
-               __config_9   0x30000b    program     static C:\git\pic_pid_example_project\src\main.c
+               __config_0   0x300000    program     static c:\git\pic_pid_example_project\src\main.c
+               __config_1   0x300001    program     static c:\git\pic_pid_example_project\src\main.c
+              __config_10   0x30000c    program     static c:\git\pic_pid_example_project\src\main.c
+              __config_11   0x30000d    program     static c:\git\pic_pid_example_project\src\main.c
+               __config_2   0x300002    program     static c:\git\pic_pid_example_project\src\main.c
+               __config_3   0x300003    program     static c:\git\pic_pid_example_project\src\main.c
+               __config_4   0x300005    program     static c:\git\pic_pid_example_project\src\main.c
+               __config_5   0x300006    program     static c:\git\pic_pid_example_project\src\main.c
+               __config_6   0x300008    program     static c:\git\pic_pid_example_project\src\main.c
+               __config_7   0x300009    program     static c:\git\pic_pid_example_project\src\main.c
+               __config_8   0x30000a    program     static c:\git\pic_pid_example_project\src\main.c
+               __config_9   0x30000b    program     static c:\git\pic_pid_example_project\src\main.c
                    __init   0x000006    program     extern C:\MCC18\src\TRADIT~1\stdclib\__init.c
                 _do_cinit   0x002e6a    program     extern C:\MCC18\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern C:\MCC18\src\traditional\startup\c018i.c
                  _startup   0x002f08    program     extern C:\MCC18\src\traditional\startup\c018i.c
                 copy_loop   0x002edc    program     static                          
             copy_one_byte   0x002ee2    program     static                          
-             doControling   0x002aa8    program     extern C:\git\pic_pid_example_project\pic_pid\src\controller.c
-                   doHyst   0x002ca4    program     extern C:\git\pic_pid_example_project\pic_pid\src\hyst.c
-                    doPID   0x002762    program     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
-                doScaling   0x002052    program     extern C:\git\pic_pid_example_project\pic_pid\src\scaler.c
+             doControling   0x002aa8    program     extern c:\git\pic_pid_example_project\pic_pid\src\controller.c
+                   doHyst   0x002ca4    program     extern c:\git\pic_pid_example_project\pic_pid\src\hyst.c
+                    doPID   0x002762    program     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
+                doScaling   0x002052    program     extern c:\git\pic_pid_example_project\pic_pid\src\scaler.c
                      done   0x002f06    program     static                          
              done_copying   0x002ef0    program     static                          
                  jANotInf   0x001b88    program     static C:\MCC18\SRC\TRADIT~1\MATH\addFP.asm
@@ -189,11 +189,11 @@ Linker Map File - Created Fri Nov 28 22:46:57 2025
                     jZero   0x001e32    program     static C:\MCC18\SRC\TRADIT~1\MATH\castFP16.asm
                jZero1and2   0x001f66    program     static C:\MCC18\SRC\TRADIT~1\MATH\packFP.asm
                      loop   0x002f18    program     static                          
-                     main   0x00240c    program     extern C:\git\pic_pid_example_project\src\main.c
-                setLimits   0x0029fc    program     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
-            setParameters   0x002974    program     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
-setParameters_standardized   0x002840    program     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
-             setTimeSlice   0x002a3c    program     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
+                     main   0x00240c    program     extern c:\git\pic_pid_example_project\src\main.c
+                setLimits   0x0029fc    program     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
+            setParameters   0x002974    program     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
+setParameters_standardized   0x002840    program     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
+             setTimeSlice   0x002a3c    program     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
                      test   0x002e84    program     static                          
                    ADCON0   0x000fc2       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
                ADCON0bits   0x000fc2       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
@@ -235,7 +235,7 @@ setParameters_standardized   0x002840    program     extern C:\git\pic_pid_examp
                  DDRDbits   0x000f95       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
                      DDRE   0x000f96       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
                  DDREbits   0x000f96       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
-                    DT0_a   0x0000e0       data     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
+                    DT0_a   0x0000e0       data     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
                   ECCP1AS   0x000fb6       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
               ECCP1ASbits   0x000fb6       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
                  ECCP1CON   0x000fbd       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
@@ -271,7 +271,7 @@ setParameters_standardized   0x002840    program     extern C:\git\pic_pid_examp
                  IPR1bits   0x000f9f       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
                      IPR2   0x000fa2       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
                  IPR2bits   0x000fa2       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
-                    IT0_a   0x0000cc       data     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
+                    IT0_a   0x0000cc       data     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
                      LATA   0x000f89       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
                  LATAbits   0x000f89       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
                      LATB   0x000f8a       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
@@ -326,7 +326,7 @@ setParameters_standardized   0x002840    program     extern C:\git\pic_pid_examp
                      PROD   0x000ff3       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
                     PRODH   0x000ff4       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
                     PRODL   0x000ff3       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
-                    PT0_a   0x0000ec       data     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
+                    PT0_a   0x0000ec       data     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
                      RCON   0x000fd0       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
                  RCONbits   0x000fd0       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
                     RCREG   0x000fae       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
@@ -358,8 +358,8 @@ setParameters_standardized   0x002840    program     extern C:\git\pic_pid_examp
                 T0CONbits   0x000fd5       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
                     T1CON   0x000fcd       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
                 T1CONbits   0x000fcd       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
-                     T1_d   0x0000c0       data     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
-                     T1_i   0x0000b4       data     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
+                     T1_d   0x0000c0       data     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
+                     T1_i   0x0000b4       data     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
                     T2CON   0x000fca       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
                 T2CONbits   0x000fca       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
                     T3CON   0x000fb1       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
@@ -474,28 +474,28 @@ setParameters_standardized   0x002840    program     extern C:\git\pic_pid_examp
                  __TEMPB1   0x000012       data     extern C:\MCC18\SRC\TRADIT~1\MATH\temparg.asm
                  __TEMPB2   0x000011       data     extern C:\MCC18\SRC\TRADIT~1\MATH\temparg.asm
                  __TEMPB3   0x000010       data     extern C:\MCC18\SRC\TRADIT~1\MATH\temparg.asm
-                  __tmp_0   0x000014       data     static C:\git\pic_pid_example_project\src\main.c
-                  __tmp_0   0x000014       data     static C:\git\pic_pid_example_project\pic_pid\src\pid.c
-                  __tmp_0   0x000014       data     static C:\git\pic_pid_example_project\pic_pid\src\scaler.c
-                  __tmp_0   0x000014       data     static C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                  __tmp_0   0x000014       data     static C:\git\pic_pid_example_project\pic_pid\src\controller.c
-                  __tmp_0   0x000014       data     static C:\git\pic_pid_example_project\pic_pid\src\hyst.c
-                  __tmp_1   0x000028       data     static C:\git\pic_pid_example_project\src\main.c
-                     alap   0x000100       data     extern C:\git\pic_pid_example_project\src\main.c
-                     cold   0x00010c       data     extern C:\git\pic_pid_example_project\src\main.c
+                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\src\main.c
+                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\pid.c
+                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\scaler.c
+                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\controller.c
+                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\hyst.c
+                  __tmp_1   0x000028       data     static c:\git\pic_pid_example_project\src\main.c
+                     alap   0x000100       data     extern c:\git\pic_pid_example_project\src\main.c
+                     cold   0x00010c       data     extern c:\git\pic_pid_example_project\src\main.c
                 curr_byte   0x0000f7       data     static C:\MCC18\src\traditional\startup\c018i.c
                curr_entry   0x0000f9       data     static C:\MCC18\src\traditional\startup\c018i.c
                  data_ptr   0x0000fb       data     static C:\MCC18\src\traditional\startup\c018i.c
-                ellenorzo   0x000104       data     extern C:\git\pic_pid_example_project\src\main.c
-                     heat   0x000108       data     extern C:\git\pic_pid_example_project\src\main.c
-        input_alap_scaler   0x000060       data     extern C:\git\pic_pid_example_project\pic_pid\src\controller.c
-   input_ellenorzo_scaler   0x000074       data     extern C:\git\pic_pid_example_project\pic_pid\src\controller.c
-                 kcsillag   0x000114       data     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                   output   0x0000b0       data     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
-output_vegrehajto_cold_scaler   0x00009c       data     extern C:\git\pic_pid_example_project\pic_pid\src\controller.c
-output_vegrehajto_heat_scaler   0x000088       data     extern C:\git\pic_pid_example_project\pic_pid\src\controller.c
+                ellenorzo   0x000104       data     extern c:\git\pic_pid_example_project\src\main.c
+                     heat   0x000108       data     extern c:\git\pic_pid_example_project\src\main.c
+        input_alap_scaler   0x000060       data     extern c:\git\pic_pid_example_project\pic_pid\src\controller.c
+   input_ellenorzo_scaler   0x000074       data     extern c:\git\pic_pid_example_project\pic_pid\src\controller.c
+                 kcsillag   0x000114       data     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                   output   0x0000b0       data     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
+output_vegrehajto_cold_scaler   0x00009c       data     extern c:\git\pic_pid_example_project\pic_pid\src\controller.c
+output_vegrehajto_heat_scaler   0x000088       data     extern c:\git\pic_pid_example_project\pic_pid\src\controller.c
                      prom   0x0000f4       data     static C:\MCC18\src\traditional\startup\c018i.c
-          timeSlice_param   0x000110       data     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+          timeSlice_param   0x000110       data     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
 
 
 
@@ -505,27 +505,27 @@ output_vegrehajto_heat_scaler   0x000088       data     extern C:\git\pic_pid_ex
                    _entry   0x000000    program     extern C:\MCC18\src\traditional\startup\c018i.c
        ___return_lbl00000   0x000004    program     static                          
                    __init   0x000006    program     extern C:\MCC18\src\TRADIT~1\stdclib\__init.c
-      InterruptVectorHigh   0x000008    program     extern C:\git\pic_pid_example_project\src\main.c
+      InterruptVectorHigh   0x000008    program     extern c:\git\pic_pid_example_project\src\main.c
        ___return_lbl00003   0x00000c    program     static                          
-                       T1   0x000040    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                       T2   0x000344    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                      PT0   0x00089a    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                      DT0   0x000954    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                      IT0   0x000af8    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                      IT1   0x000f34    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                      DT1   0x000f98    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                      IT2   0x000ffc    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                      DT2   0x001060    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                      PT1   0x0010c4    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                      PT2   0x00112a    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                     PIT0   0x001190    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                     PIT1   0x001278    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                     PIT2   0x001390    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                     PDT0   0x0014aa    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                     PDT1   0x001594    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                     PDT2   0x0016ae    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                   PIT0D0   0x0017c8    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                  PIT1DT1   0x00192a    program     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                       T1   0x000040    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                       T2   0x000344    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                      PT0   0x00089a    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                      DT0   0x000954    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                      IT0   0x000af8    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                      IT1   0x000f34    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                      DT1   0x000f98    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                      IT2   0x000ffc    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                      DT2   0x001060    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                      PT1   0x0010c4    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                      PT2   0x00112a    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                     PIT0   0x001190    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                     PIT1   0x001278    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                     PIT2   0x001390    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                     PDT0   0x0014aa    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                     PDT1   0x001594    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                     PDT2   0x0016ae    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                   PIT0D0   0x0017c8    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                  PIT1DT1   0x00192a    program     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
                  FLO0832U   0x001b3c    program     extern C:\MCC18\SRC\TRADIT~1\MATH\cast08FP.asm
                  FLO0832S   0x001b40    program     extern C:\MCC18\SRC\TRADIT~1\MATH\cast08FP.asm
                 jI2F08Beg   0x001b4a    program     static C:\MCC18\SRC\TRADIT~1\MATH\cast08FP.asm
@@ -605,16 +605,16 @@ output_vegrehajto_heat_scaler   0x000088       data     extern C:\git\pic_pid_ex
                   jUnpkB1   0x002030    program     static C:\MCC18\SRC\TRADIT~1\MATH\UnpackFP.asm
                  jUnpkBNZ   0x00203e    program     static C:\MCC18\SRC\TRADIT~1\MATH\UnpackFP.asm
                   jUnpkB2   0x002048    program     static C:\MCC18\SRC\TRADIT~1\MATH\UnpackFP.asm
-                doScaling   0x002052    program     extern C:\git\pic_pid_example_project\pic_pid\src\scaler.c
-                     main   0x00240c    program     extern C:\git\pic_pid_example_project\src\main.c
-     InterruptHandlerHigh   0x0024b4    program     extern C:\git\pic_pid_example_project\src\main.c
-                    doPID   0x002762    program     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
-setParameters_standardized   0x002840    program     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
-            setParameters   0x002974    program     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
-                setLimits   0x0029fc    program     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
-             setTimeSlice   0x002a3c    program     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
-             doControling   0x002aa8    program     extern C:\git\pic_pid_example_project\pic_pid\src\controller.c
-                   doHyst   0x002ca4    program     extern C:\git\pic_pid_example_project\pic_pid\src\hyst.c
+                doScaling   0x002052    program     extern c:\git\pic_pid_example_project\pic_pid\src\scaler.c
+                     main   0x00240c    program     extern c:\git\pic_pid_example_project\src\main.c
+     InterruptHandlerHigh   0x0024b4    program     extern c:\git\pic_pid_example_project\src\main.c
+                    doPID   0x002762    program     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
+setParameters_standardized   0x002840    program     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
+            setParameters   0x002974    program     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
+                setLimits   0x0029fc    program     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
+             setTimeSlice   0x002a3c    program     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
+             doControling   0x002aa8    program     extern c:\git\pic_pid_example_project\pic_pid\src\controller.c
+                   doHyst   0x002ca4    program     extern c:\git\pic_pid_example_project\pic_pid\src\hyst.c
                 _do_cinit   0x002e6a    program     extern C:\MCC18\src\traditional\startup\c018i.c
                      test   0x002e84    program     static                          
                 copy_loop   0x002edc    program     static                          
@@ -625,18 +625,18 @@ setParameters_standardized   0x002840    program     extern C:\git\pic_pid_examp
                  _startup   0x002f08    program     extern C:\MCC18\src\traditional\startup\c018i.c
                      loop   0x002f18    program     static                          
        ___return_lbl00001   0x002f22    program     static                          
-               __config_0   0x300000    program     static C:\git\pic_pid_example_project\src\main.c
-               __config_1   0x300001    program     static C:\git\pic_pid_example_project\src\main.c
-               __config_2   0x300002    program     static C:\git\pic_pid_example_project\src\main.c
-               __config_3   0x300003    program     static C:\git\pic_pid_example_project\src\main.c
-               __config_4   0x300005    program     static C:\git\pic_pid_example_project\src\main.c
-               __config_5   0x300006    program     static C:\git\pic_pid_example_project\src\main.c
-               __config_6   0x300008    program     static C:\git\pic_pid_example_project\src\main.c
-               __config_7   0x300009    program     static C:\git\pic_pid_example_project\src\main.c
-               __config_8   0x30000a    program     static C:\git\pic_pid_example_project\src\main.c
-               __config_9   0x30000b    program     static C:\git\pic_pid_example_project\src\main.c
-              __config_10   0x30000c    program     static C:\git\pic_pid_example_project\src\main.c
-              __config_11   0x30000d    program     static C:\git\pic_pid_example_project\src\main.c
+               __config_0   0x300000    program     static c:\git\pic_pid_example_project\src\main.c
+               __config_1   0x300001    program     static c:\git\pic_pid_example_project\src\main.c
+               __config_2   0x300002    program     static c:\git\pic_pid_example_project\src\main.c
+               __config_3   0x300003    program     static c:\git\pic_pid_example_project\src\main.c
+               __config_4   0x300005    program     static c:\git\pic_pid_example_project\src\main.c
+               __config_5   0x300006    program     static c:\git\pic_pid_example_project\src\main.c
+               __config_6   0x300008    program     static c:\git\pic_pid_example_project\src\main.c
+               __config_7   0x300009    program     static c:\git\pic_pid_example_project\src\main.c
+               __config_8   0x30000a    program     static c:\git\pic_pid_example_project\src\main.c
+               __config_9   0x30000b    program     static c:\git\pic_pid_example_project\src\main.c
+              __config_10   0x30000c    program     static c:\git\pic_pid_example_project\src\main.c
+              __config_11   0x30000d    program     static c:\git\pic_pid_example_project\src\main.c
                   __REMB3   0x000000       data     extern C:\MCC18\SRC\TRADIT~1\MATH\aarg.asm
                  __AARGB7   0x000000       data     extern C:\MCC18\SRC\TRADIT~1\MATH\aarg.asm
                   __REMB2   0x000001       data     extern C:\MCC18\SRC\TRADIT~1\MATH\aarg.asm
@@ -663,33 +663,33 @@ setParameters_standardized   0x002840    program     extern C:\git\pic_pid_examp
                  __TEMPB1   0x000012       data     extern C:\MCC18\SRC\TRADIT~1\MATH\temparg.asm
                    __TEMP   0x000013       data     extern C:\MCC18\SRC\TRADIT~1\MATH\temparg.asm
                  __TEMPB0   0x000013       data     extern C:\MCC18\SRC\TRADIT~1\MATH\temparg.asm
-                  __tmp_0   0x000014       data     static C:\git\pic_pid_example_project\pic_pid\src\pid.c
-                  __tmp_0   0x000014       data     static C:\git\pic_pid_example_project\src\main.c
-                  __tmp_0   0x000014       data     static C:\git\pic_pid_example_project\pic_pid\src\scaler.c
-                  __tmp_0   0x000014       data     static C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                  __tmp_0   0x000014       data     static C:\git\pic_pid_example_project\pic_pid\src\controller.c
-                  __tmp_0   0x000014       data     static C:\git\pic_pid_example_project\pic_pid\src\hyst.c
-                  __tmp_1   0x000028       data     static C:\git\pic_pid_example_project\src\main.c
-        input_alap_scaler   0x000060       data     extern C:\git\pic_pid_example_project\pic_pid\src\controller.c
-   input_ellenorzo_scaler   0x000074       data     extern C:\git\pic_pid_example_project\pic_pid\src\controller.c
-output_vegrehajto_heat_scaler   0x000088       data     extern C:\git\pic_pid_example_project\pic_pid\src\controller.c
-output_vegrehajto_cold_scaler   0x00009c       data     extern C:\git\pic_pid_example_project\pic_pid\src\controller.c
-                   output   0x0000b0       data     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
-                     T1_i   0x0000b4       data     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
-                     T1_d   0x0000c0       data     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
-                    IT0_a   0x0000cc       data     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
-                    DT0_a   0x0000e0       data     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
-                    PT0_a   0x0000ec       data     extern C:\git\pic_pid_example_project\pic_pid\src\pid.c
+                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\pid.c
+                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\src\main.c
+                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\scaler.c
+                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\controller.c
+                  __tmp_0   0x000014       data     static c:\git\pic_pid_example_project\pic_pid\src\hyst.c
+                  __tmp_1   0x000028       data     static c:\git\pic_pid_example_project\src\main.c
+        input_alap_scaler   0x000060       data     extern c:\git\pic_pid_example_project\pic_pid\src\controller.c
+   input_ellenorzo_scaler   0x000074       data     extern c:\git\pic_pid_example_project\pic_pid\src\controller.c
+output_vegrehajto_heat_scaler   0x000088       data     extern c:\git\pic_pid_example_project\pic_pid\src\controller.c
+output_vegrehajto_cold_scaler   0x00009c       data     extern c:\git\pic_pid_example_project\pic_pid\src\controller.c
+                   output   0x0000b0       data     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
+                     T1_i   0x0000b4       data     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
+                     T1_d   0x0000c0       data     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
+                    IT0_a   0x0000cc       data     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
+                    DT0_a   0x0000e0       data     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
+                    PT0_a   0x0000ec       data     extern c:\git\pic_pid_example_project\pic_pid\src\pid.c
                      prom   0x0000f4       data     static C:\MCC18\src\traditional\startup\c018i.c
                 curr_byte   0x0000f7       data     static C:\MCC18\src\traditional\startup\c018i.c
                curr_entry   0x0000f9       data     static C:\MCC18\src\traditional\startup\c018i.c
                  data_ptr   0x0000fb       data     static C:\MCC18\src\traditional\startup\c018i.c
-                     alap   0x000100       data     extern C:\git\pic_pid_example_project\src\main.c
-                ellenorzo   0x000104       data     extern C:\git\pic_pid_example_project\src\main.c
-                     heat   0x000108       data     extern C:\git\pic_pid_example_project\src\main.c
-                     cold   0x00010c       data     extern C:\git\pic_pid_example_project\src\main.c
-          timeSlice_param   0x000110       data     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
-                 kcsillag   0x000114       data     extern C:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                     alap   0x000100       data     extern c:\git\pic_pid_example_project\src\main.c
+                ellenorzo   0x000104       data     extern c:\git\pic_pid_example_project\src\main.c
+                     heat   0x000108       data     extern c:\git\pic_pid_example_project\src\main.c
+                     cold   0x00010c       data     extern c:\git\pic_pid_example_project\src\main.c
+          timeSlice_param   0x000110       data     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
+                 kcsillag   0x000114       data     extern c:\git\pic_pid_example_project\pic_pid\src\signalprocessor.c
                   SPPDATA   0x000f62       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
                SPPCFGbits   0x000f63       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
                    SPPCFG   0x000f63       data     extern C:\MCC18\SRC\TRADIT~1\PROC\p18f4550.asm
