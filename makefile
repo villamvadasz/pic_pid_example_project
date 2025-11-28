@@ -6,7 +6,9 @@ AS = MPASMWIN.exe
 CC = mcc18.exe
 LD = mplink.exe
 AR = mplib.exe
-RM = rm
+RM = del
+
+all : ./output/p18f4550example.cof
 
 ./output/p18f4550example.cof : output/main.o output/pid.o output/scaler.o output/signalprocessor.o output/hyst.o output/controller.o
 	$(LD) /l"C:\MCC18\lib" /k".\lnk" "lnk\18f4550.lkr" "output\main.o" "output\pid.o" "output\scaler.o" "output\signalprocessor.o" "output\hyst.o" "output\controller.o" /z__MPLAB_BUILD=1 /z__MPLAB_DEBUG=1 /m".\output\p18f4550example.map" /w /o".\output\p18f4550example.cof"

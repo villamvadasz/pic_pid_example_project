@@ -1,3 +1,6 @@
 [submodule "pic_pid"]
 	path = pic_pid
 	url = https://github.com/villamvadasz/pic_pid.git
+[submodule "make"]
+	path = make
+	url = https://github.com/villamvadasz/make.git
